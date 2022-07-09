@@ -1,0 +1,16 @@
+
+version: "3.9"
+services:
+  worker:
+    build: .
+    environment:
+       API_HASH:  $API_HASH
+       APP_ID:  $APP_ID
+       BOT_TOKEN:  $BOT_TOKEN
+       MONGO_DB_URI:  $MONGO_DB_URI
+       INDEX_ID:  $INDEX_ID
+       UPLOADS_ID:  $UPLOADS_ID
+       STATUS_ID:  $STATUS_ID
+       CHANNEL_TITLE:  $CHANNEL_TITLE
+       INDEX_USERNAME:  $INDEX_USERNAME
+       UPLOADS_USERNAME:  $UPLOADS_USERNAME
